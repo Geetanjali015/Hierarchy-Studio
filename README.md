@@ -1,4 +1,4 @@
-# Hierarchy-Studio
+# 👾Hierarchy-Studio
 
 > A REST API + frontend for parsing hierarchical node relationships, detecting cycles, and visualizing tree structures — built for the SRM Full Stack Engineering Challenge.
 
@@ -13,9 +13,9 @@
 
 | Resource | URL |
 |----------|-----|
-| 🌐 Frontend | `https://your-frontend-url.vercel.app` |
-| ⚡ API Base URL | `https://your-api-url.render.com` |
-| 📁 GitHub Repo | `https://github.com/yourusername/HierarchyStudio-api` |
+| 🌐 Frontend | `https://hierarchy-studio.vercel.app` |
+| ⚡ API Base URL | `https://hierarchy-studio-api.onrender.com` |
+| 📁 GitHub Repo | `https://github.com/Geetanjali015/Hierarchy-Studio` |
 
 ---
 
@@ -34,7 +34,7 @@ HierarchyStudio takes an array of `"Parent->Child"` edge strings and:
 ## 📂 Project Structure
 
 ```
-HierarchyStudio-api/
+HierarchyStudio/
 ├── server/
 │   ├── index.js          # Express server entry point
 │   ├── routes/
@@ -65,8 +65,8 @@ HierarchyStudio-api/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/HierarchyStudio-api.git
-cd HierarchyStudio-api
+git clone https://github.com/Geetanjali015/Hierarchy-Studio
+cd HierarchyStudio
 
 # Install dependencies
 npm install
@@ -107,9 +107,9 @@ Open `client/index.html` in your browser or serve it with any static server.
 
 ```json
 {
-  "user_id": "johndoe_17091999",
-  "email_id": "john.doe@college.edu",
-  "college_roll_number": "21CS1001",
+  "user_id": "geetanjali_015",
+  "email_id": "gp0738@srmist.edu.in",
+  "college_roll_number": "RA2311003010017",
   "hierarchies": [
     {
       "root": "A",
@@ -202,9 +202,9 @@ The frontend is a single-page app that:
 
 ```env
 PORT=3000
-USER_ID=johndoe_17091999
-EMAIL_ID=john.doe@college.edu
-COLLEGE_ROLL_NUMBER=21CS1001
+USER_ID=geetanjali_015
+EMAIL_ID=gp0738@srmist.edu.in
+COLLEGE_ROLL_NUMBER=RA2311003010017
 ```
 
 ---
