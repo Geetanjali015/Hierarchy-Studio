@@ -1,7 +1,7 @@
 import { startTransition, useMemo, useState } from "react";
 import "./App.css";
 
-const API_URL = `${import.meta.env.VITE_API_BASE_URL || "http://localhost:3000"}/bfhl`;
+const API_URL = `${import.meta.env.VITE_API_BASE_URL || "https://hierarchy-studio-api.onrender.com"}/`;
 const SAMPLE_INPUT = JSON.stringify(
   ["A->B", "A->C", "B->D", "M->N", "N->O", "Q->R", "R->Q", "hello"],
   null,
