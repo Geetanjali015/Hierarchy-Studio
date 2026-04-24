@@ -161,14 +161,13 @@ export default function App() {
     <main className="page-shell">
       <section className="hero">
         <div className="hero__copy">
-          <p className="eyebrow">SRM Full Stack Assignment</p>
+          <p className="eyebrow">Bajaj Finserv Test</p>
           <h1>Hierarchy Studio</h1>
           <p className="hero__text">
             Paste your node list, send it to <code>/bfhl</code>, and inspect the result as
             readable tree cards, health metrics, and raw JSON.
           </p>
           <div className="hero__meta">
-            <span>Single-page frontend</span>
             <span>Readable API output</span>
             <span>Clear failure states</span>
           </div>
