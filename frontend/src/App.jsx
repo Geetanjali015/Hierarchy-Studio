@@ -1,7 +1,18 @@
 import { startTransition, useMemo, useState } from "react";
 import "./App.css";
 
-const API_URL = `${import.meta.env.VITE_API_BASE_URL || "https://hierarchy-studio-api.onrender.com"}`;
+function normalizeApiBaseUrl(baseUrl) {
+  const normalizedBase = (baseUrl || "https://hierarchy-studio-api.onrender.com").trim();
+
+  if (normalizedBase.endsWith("/bfhl")) {
+    return normalizedBase.slice(0, -"/bfhl".length);
+  }
+
+  return normalizedBase.replace(/\/+$/, "");
+}
+
+const API_BASE_URL = normalizeApiBaseUrl(import.meta.env.VITE_API_BASE_URL);
+const API_URL = `${API_BASE_URL}/bfhl`;
 const SAMPLE_INPUT = JSON.stringify(
   ["A->B", "A->C", "B->D", "M->N", "N->O", "Q->R", "R->Q", "hello"],
   null,
@@ -166,7 +177,7 @@ export default function App() {
         <aside className="hero__panel">
           <div className="mini-card">
             <p className="mini-card__label">API target</p>
-            <p className="mini-card__value">{API_URL}</p>
+            <p className="mini-card__value">{API_BASE_URL}</p>
           </div>
           <div className="mini-card">
             <p className="mini-card__label">Evaluator-ready notes</p>
