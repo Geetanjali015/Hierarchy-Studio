@@ -1,8 +1,7 @@
 import { startTransition, useMemo, useState } from "react";
 import "./App.css";
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:3000";
-const API_URL = `${API_BASE_URL}/bfhl`;
+const API_URL = `${import.meta.env.VITE_API_BASE_URL || "http://localhost:3000"}/bfhl`;
 const SAMPLE_INPUT = JSON.stringify(
   ["A->B", "A->C", "B->D", "M->N", "N->O", "Q->R", "R->Q", "hello"],
   null,
@@ -167,7 +166,7 @@ export default function App() {
         <aside className="hero__panel">
           <div className="mini-card">
             <p className="mini-card__label">API target</p>
-            <p className="mini-card__value">{API_BASE_URL}</p>
+            <p className="mini-card__value">{API_URL}</p>
           </div>
           <div className="mini-card">
             <p className="mini-card__label">Evaluator-ready notes</p>
