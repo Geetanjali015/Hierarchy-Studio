@@ -1,6 +1,6 @@
 # 👾Hierarchy-Studio
 
-> A REST API + frontend for parsing hierarchical node relationships, detecting cycles, and visualizing tree structures — built for the SRM Full Stack Engineering Challenge.
+> A REST API + frontend for parsing hierarchical node relationships, detecting cycles, and visualizing tree structures — built for the Bajaj Finserv.
 
 ![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-4.x-000000?style=flat-square&logo=express&logoColor=white)
