@@ -13,7 +13,7 @@
 
 | Resource | URL |
 |----------|-----|
-| 🌐 Frontend | `https://hierarchy-studio.vercel.app` |
+| 🌐 Website | `https://hierarchy-studio.vercel.app` |
 | ⚡ API Base URL | `https://hierarchy-studio-api.onrender.com` |
 | 📁 GitHub Repo | `https://github.com/Geetanjali015/Hierarchy-Studio` |
 
